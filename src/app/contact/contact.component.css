@@ -49,3 +49,9 @@
 .social-links .uil:hover {
   color: #ffc200;
 }
+
+.copyright-text {
+  font-size: 16px;
+  font-weight: normal;
+  display: block;
+}
