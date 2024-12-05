@@ -46,9 +46,10 @@
         <div class="ml-lg-4">
           <div
             class="color-mode d-lg-flex justify-content-center align-items-center"
+            (click)="toggleDarkMode()"
           >
-            <i class="color-mode-icon"></i>
-            Color mode
+            <span [class.active]="isDarkMode"></span>
+            Dark Theme
           </div>
         </div>
       </ul>
