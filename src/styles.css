@@ -225,6 +225,27 @@ body.dark-mode .color-mode {
   color: #ffffff;
 }
 
+body.dark-mode .contact .social-links h3 {
+  color: #ffffff !important;
+}
+
+body.dark-mode .contact .social-links a {
+  color: #ffffff !important;
+}
+
+body.dark-mode .contact .social-links a:hover {
+  color: #ffc200 !important;
+}
+
+body.dark-mode .contact .social-links .uil {
+  color: #ffffff !important;
+}
+
+body.dark-mode .contact .social-links .uil:hover {
+  color: #ffc200 !important;
+}
+
+
 /* === Utilidades === */
 .hidden {
   display: none !important;
