@@ -114,9 +114,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-ul li {
-  list-style: none;
-}
 
 /* === Links === */
 a {
@@ -246,6 +243,14 @@ body.dark-mode .contact .social-links .uil:hover {
 }
 
 body.dark-mode .contact-form .form-control::placeholder {
+  color: #d1d1d1;
+}
+
+body.dark-mode p {
+  color: #d1d1d1;
+}
+
+body.dark-mode .custom-bullets li {
   color: #d1d1d1;
 }
 

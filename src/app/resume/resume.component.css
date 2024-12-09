@@ -45,3 +45,13 @@
   vertical-align: middle;
   margin-left: 15px;
 }
+
+.custom-bullets {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.custom-bullets li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
