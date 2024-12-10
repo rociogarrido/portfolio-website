@@ -48,7 +48,11 @@
             class="color-mode d-lg-flex justify-content-center align-items-center"
             (click)="toggleDarkMode()"
           >
-            <span [class.active]="isDarkMode"></span>
+            <i
+              class="color-mode-icon"
+              [class]="isDarkMode ? 'uil uil-sun' : 'uil uil-moon'"
+            ></i>
+
             Dark Theme
           </div>
         </div>
