@@ -3,7 +3,7 @@
 
 /* === Variables Globales === */
 :root {
-  --primary-color: #ffc200;
+  --primary-color: #cc9a00;
   --secondary-color: #474559;
   --dark-bg: #0c0c0d;
   --light-bg: #ffffff;
@@ -58,14 +58,14 @@ body {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #ffc200;
+  color: var(--primary-color);
 }
 .custom-btn.custom-btn-bg {
   background: #474559;
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #ffc200;
+  background: var(--primary-color);
   color: #ffffff !important;
 }
 
@@ -200,7 +200,7 @@ body.dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
 body.dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: var(--primary-color);
 }
 body.dark-mode .navbar[class*="headroom--not-top"] {
   background: #0c0c0d;
@@ -231,7 +231,7 @@ body.dark-mode .contact .social-links a {
 }
 
 body.dark-mode .contact .social-links a:hover {
-  color: #ffc200 !important;
+  color: var(--primary-color) !important;
 }
 
 body.dark-mode .contact .social-links .uil {
@@ -239,7 +239,7 @@ body.dark-mode .contact .social-links .uil {
 }
 
 body.dark-mode .contact .social-links .uil:hover {
-  color: #ffc200 !important;
+  color: var(--primary-color) !important;
 }
 
 body.dark-mode .contact-form .form-control::placeholder {

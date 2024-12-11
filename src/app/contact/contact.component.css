@@ -14,10 +14,10 @@
 }
 .contact-form .form-control:hover,
 .contact-form .form-control:focus {
-  border-color: #ffc200;
+  border-color: var(--primary-color);
 }
 .contact-form .submit-btn {
-  background: #ffc200;
+  background: #cc9a00;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -69,7 +69,7 @@
 }
 
 .social-links a:hover {
-  color: #ffc200;
+  color: var(--primary-color);
 }
 
 .social-links .uil {
@@ -79,5 +79,5 @@
   margin: 5px 5px;
 }
 .social-links .uil:hover {
-  color: #ffc200;
+  color: var(--primary-color);
 }
