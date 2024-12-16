@@ -4,8 +4,9 @@
   margin-bottom: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden; /* Asegura que las imágenes no sobresalgan */
-  background-color: #fff; /* Fondo blanco o cualquier color deseado */
+  min-height: 400px;
+  overflow: hidden;
+  background-color: #fff;
 }
 
 .project-card:hover {
@@ -36,7 +37,7 @@
 
 .project-info .btn {
   margin-top: 10px;
-  background-color:#cc9a00;
+  background-color: #cc9a00;
   color: #fff;
   border: none;
 }
