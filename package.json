@@ -19,7 +19,11 @@
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
     "@iconscout/unicons": "^4.0.8",
+    "axios": "^0.28.0",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^5.0.0",
+    "nth-check": "^2.0.1",
+    "path-to-regexp": "^0.1.12",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
