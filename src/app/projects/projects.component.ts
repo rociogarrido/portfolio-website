@@ -18,17 +18,17 @@ export class ProjectsComponent {
       link: 'https://rociogarrido.github.io/hotel-app/',
     },
     {
+      title: 'Cooking planner',
+      description: 'Meal planning app built with Angular and NgRx',
+      image: 'assets/images/cooking-planner.jpg',
+      link: 'https://rociogarrido.github.io/cooking-planner/',
+    },
+    {
       title: 'Shopping cart',
       description:
         'E-commerce application made with React, TypeScript and Material-UI',
       image: 'assets/images/shopping-cart.jpg',
       link: 'https://rociogarrido.github.io/shopping-cart/',
-    },
-    {
-      title: 'Music player',
-      description: 'Music player built with pure HTML, CSS and JS.',
-      image: 'assets/images/music-player.jpg',
-      link: 'https://rociogarrido.github.io/music-player/',
     },
   ];
 }
