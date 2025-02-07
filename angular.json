@@ -24,7 +24,8 @@
               "node_modules/@iconscout/unicons/css/line.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "/portfolio-website/"
           },
           "configurations": {
             "production": {
